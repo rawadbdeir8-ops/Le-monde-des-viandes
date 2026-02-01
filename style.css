@@ -5,19 +5,22 @@ h1
 
 body
 {
-	background-color: black;
-}
+  background-color: darkred;
+  margin: 0;
+  font-family: "Georgia", serif;
 
 
 #carte 
 {
-    width: 800px;
-    margin:0 auto ;
-    background-color: white;
-    text-align: center;
-    align-content: center;
-
+  text-align: center;
+  align-content: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: white; 
+  padding: 30px;
+  border-radius: 12px;
 }
+
 
 ul li
 {
@@ -37,6 +40,7 @@ img
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     margin: 25px auto;
 }
+
 
 
 
