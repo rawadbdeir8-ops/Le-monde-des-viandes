@@ -25,21 +25,21 @@
           <li>
              
             <h3 style="color: darkred;"> Wagyu </h3>
-            <br><a href="https://wagyushop.com/"><img src="wagyu image.jpg" alt="wagyu"></a><br><br> La bœuf de Wagyu est un bœuf japonais exceptionnel,<br> célèbre pour son persillage intense.</li><br>
+            <a href="https://wagyushop.com/"><img src="wagyu image.jpg" alt="wagyu"></a><br> La bœuf de Wagyu est un bœuf japonais exceptionnel,<br> célèbre pour son persillage intense.</li><br>
 
           <li>
-            <h3 style="color: darkred;">Kobe</h3><br> <a href="https://grandwesternsteaks.com/wagyu/japanese-wagyu/kobe.html"><img src="Kobe image.jpg" alt="Kobe"></a><br><br>  La bœuf Kobe est un Wagyu d’exception originaire de Kobe, <br> célèbre pour sa texture fondante et son goût luxueux.</li><br>
+            <h3 style="color: darkred;">Kobe</h3> <a href="https://grandwesternsteaks.com/wagyu/japanese-wagyu/kobe.html"><img src="Kobe image.jpg" alt="Kobe"></a><br>  La bœuf Kobe est un Wagyu d’exception originaire de Kobe, <br> célèbre pour sa texture fondante et son goût luxueux.</li><br>
 
           <li>
-            <h3 style="color: darkred;">Black Angus</h3><br><a href="https://societejabra.com/collections/certified-angus-beef"><img src="black angus image.jpg" alt="black angus"></a><br><br>Le Bœuf Black Angus est un Bœuf tendre et juteux,<br>apprécié pour son équilibre entre saveur et qualité.</li><br>
+            <h3 style="color: darkred;">Black Angus</h3><a href="https://societejabra.com/collections/certified-angus-beef"><img src="black angus image.jpg" alt="black angus"></a><br>Le Bœuf Black Angus est un Bœuf tendre et juteux,<br>apprécié pour son équilibre entre saveur et qualité.</li><br>
 
           <li>
-            <h3 style="color: darkred;">Hereford</h3><br><a href="https://www.certifiedherefordbeef.com"><img src="hereford image.jpg" alt="hereford"></a><br><br>Le bœuf Hereford est un Bœuf savoureuse et maigre,<br> connue pour sa constance et sa douceur.</li>
+            <h3 style="color: darkred;">Hereford</h3><a href="https://www.certifiedherefordbeef.com"><img src="hereford image.jpg" alt="hereford"></a><br>Le bœuf Hereford est un Bœuf savoureuse et maigre,<br> connue pour sa constance et sa douceur.</li>
           </ul><br>
           
           <iframe width="560" height="315" src="https://www.youtube.com/embed/xXT_FD-VFYY?si=O54vjrCva4aC1pUS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <br><br>
+          <br><br><br>
         
           <h2 style="color: red;">Le bœuf rouge et blanc</h2>
           
@@ -53,21 +53,27 @@
                
             <source src="video.viande.mp4.mp4" type="video/mp4">
            </video><br><br><br><br>
-               <h2 style="color: red;">La viande rouge est-elle dangereuse ?</h2><br>
-
-            <script>
-        const audio = new Audio("cow.audio.mp3");
-
-        function playSound() {
-            audio.play();
-            document.removeEventListener("click", playSound);
-        }
-
-        document.addEventListener("click", playSound);
-    </script>
+               <h2 style="color: red;">La viande rouge est-elle dangereuse ?</h2><br><br>
                
            <iframe width="560" height="315" src="https://www.youtube.com/embed/9FNMO92_pso?si=0K5hMK0QRMKyKwLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
 
+
+           <audio id="cowAudio" loop>
+                 <source src="cow.audio.mp3" type="audio/mpeg">
+           </audio>
+
+          <script>
+           const audio = document.getElementById("cowAudio");
+           document.addEventListener("click", function () {
+           if (audio.paused) {
+         audio.play();
+         } else {
+         audio.pause();
+         }
+         });
+          </script>
+
+            
            <h5>-Clicker sur les photos pour acheter du bœuf</h5>
 
 
@@ -79,6 +85,7 @@
 
 
 </html>
+
 
 
 
