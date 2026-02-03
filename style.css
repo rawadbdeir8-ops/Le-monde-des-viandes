@@ -6,9 +6,8 @@ h1
 body
 {
   background-color: darkred;
-  margin: 0;
   font-family: "Georgia", serif;
-
+}
 
 #carte 
 {
@@ -40,6 +39,7 @@ img
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     margin: 25px auto;
 }
+
 
 
 
