@@ -5,7 +5,9 @@ h1
 
 body
 {
-  background-color: darkred;
+  background: url("cow image3.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Georgia", serif;
 }
 
@@ -14,8 +16,7 @@ body
   text-align: center;
   align-content: center;
   max-width: 900px;
-  margin: 40px auto;
-  background-color: white; 
+  margin: 40px auto; 
   padding: 30px;
   border-radius: 12px;
 }
@@ -39,6 +40,7 @@ img
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     margin: 25px auto;
 }
+
 
 
 
